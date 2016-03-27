@@ -1,26 +1,24 @@
 #2.1-1
 
-  PASS
+ (pass) 
 
 #2.1-2
 
 ##### INSERTION-SORT
 
-
-
 	for j=2 to A.length
 
         	key=A[j]
 
-       	 i=j-1
+       	     i=j-1
 
-    while i>0 and A[i]<key
+        while i>0 and A[i]<key
 
-        A[i+1]=A[i]
+            A[i+1]=A[i]
 
-        i=i-1
+            i=i-1
 
-        A[i+1]=key
+            A[i+1]=key
 
 
 
